@@ -1,5 +1,4 @@
-.necoarc {
-  /* keep both of these in cause of chromium browsers being god awful  */
+.text {
   --bg-size: 400%;
   background: linear-gradient(
       90deg,
@@ -16,7 +15,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .necoarc {
+  .text {
      /* time */
     animation: move-bg 8s linear infinite;
   }
