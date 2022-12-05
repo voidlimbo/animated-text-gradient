@@ -1,5 +1,7 @@
 .necoarc {
+  /* keep both of these in cause of chromium browsers being god awful  */
   --bg-size: 400%;
+  bg-size: 400%;
   background: linear-gradient(
       90deg,
       rgb(36, 236, 243),
