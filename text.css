@@ -7,7 +7,6 @@
       rgb(36, 236, 243)
     )
     0 0 / var(--bg-size) 100%;
-  /* keep both of these in cause of chromium browsers being god awful  */
   color: transparent; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -16,7 +15,6 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .text {
-     /* time */
     animation: move-bg 8s linear infinite;
   }
   @keyframes move-bg {
